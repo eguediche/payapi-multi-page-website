@@ -1,0 +1,26 @@
+/* En gros c la ou tu vas mettre les classe css communes via les diff pages, (pas pour pc, tablette ext...) */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+/*   font-family: "DM Serif Display", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*   font-family: "Public Sans", sans-serif; */
+
+
+ :root{
+    --main-color: #BA4270;
+    --main-second-color:#E1E1E1;
+    --secondary-color:#36536B;
+    --secondary-second-color:#1B262F;
+    --secondary-third-color:#DA6D97;
+    --secondary-fourth-color:#6C8294;
+    --button-main-color:#BA4270;
+    --button-hover-color:#DA6D97;
+    --button-disabled-color:#BA4270 #36536B40;
+    --button-secondary-color:#1B262F;
+    --button-secondary-hover-color:#FFFFFF;
+    --button-secondary-dark-color:#36536B;
+    --button-secondary-hover-dark-color:#36536B;
+    --checkbox-normal-color:#36536B;
+    --checkbox-active-color:#BA4270;
+    --checkbox-disabled-color:#36536B;
+ }
