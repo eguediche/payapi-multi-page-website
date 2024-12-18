@@ -1,0 +1,68 @@
+:root {
+	--border-radius: 99px;
+	--normal-state-light-bgcolor: #BA4270;
+	--btn-light-color: #ffffff;
+	--btn-light-padding: 16px 24.5px 14px 26.5px;
+	--hover-state-light-bgcolor: #da6d97;
+	--disabled-state-light-bgcolor: #dca1b7;
+
+	--secondary-dark-padding: 16px 32px 14px 32px;
+
+	--normal-state-dark-bgcolor: #1b262f;
+	--normal-state-dark-color: #ffffff;
+	--normal-state-dark-border: 1px solid #ffffff;
+
+	--hover-state-dark-bgcolor: #ffffff;
+	--hover-state-dark-color: #1b262f;
+	--hover-state-dark-border: 1px solid #ffffff;
+
+	--disabled-state-dark-bgcolor: #1b262f;
+	--disabled-state-dark-color: #8d9097;
+	--disabled-state-dark-border: 1px solid #8d9097;
+
+	--secondary-submit-padding: 16px 25px 14px 28px;
+
+	--normal-state-submit-bgcolor: #ffffff;
+	--normal-state-submit-color: #36536b;
+	--normal-state-submit-border: 1px solid #36536b;
+
+	--hover-state-submit-bgcolor: #36536b;
+	--hover-state-submit-color: #ffffff;
+	--hover-state-submit-border: 1px solid #36536b;
+
+	--disabled-state-submit-bgcolor: #ffffff;
+	--disabled-state-submit-color: #9da8b1;
+	--disabled-state-submit-border: 1px solid #9da8b1;
+}
+
+.schedule-demo-button {
+	display: none;
+}
+
+.schedule-demo-button:hover {
+	background-color: var(--hover-state-light-bgcolor);
+	color: var(--primary-link-water-white);
+}
+
+
+
+@media screen and (min-width: 768px){
+
+	.schedule-demo-button {
+		background-color:var(--normal-input-button-color);
+		padding: var(--btn-light-padding);
+		border-radius: var(--normal-button-border-radius);
+		border: none;
+	}
+}	
+
+@media screen and (min-width: 1024px) {
+	.schedule-demo-button {
+		background-color:var(--normal-input-button-color);
+		padding: var(--secondary-dark-padding);
+		border-radius: var(--normal-button-border-radius);
+		border: none;
+	}
+}
+
+

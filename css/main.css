@@ -1,5 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
-/*   font-family: "DM Serif Display", serif; */
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-/*   font-family: "Public Sans", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Chango&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jua&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Chango&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jua&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap");
 
+/* les textes*/
+:root {
+	--font-family-main: "Public Sans", sans-serif;
+	--font-family-secondary: "DM Serif Display", serif;
+	--primary-dark-pink: #ba4270;
+	--primary-link-water-white: #fbfcfe;
+	--secondary-san-juan-blue: #36536b;
+	--secondary-mirage-blue: #1b262f;
+	--secondary-charm-pink-actives: #da6b97;
+	--secondary-light-san-juan-blue: #6c8294;
+	--background-color-form: #36536b;
+	--background-color-circle-opacity: #36536b45;
+
+	--h-weight: 400;
+	--h-line-height: 36px;
+	--h1-weight: 700;
+	--large-size-h1: 72px;
+	--large-line-height-h1: 72px;
+
+	--small-size-h1: 56px;
+	--small-line-height-h1: 56px;
+
+	--size-h2: 48px;
+	--line-height-h2: 56px;
+
+	--large-size-h3: 32px;
+	--large-line-height-h3: 40px;
+
+	--small-size-h3: 18px;
+	--small-weight-h3: 700;
+	--font-family-h3: "Public sans", sans-serif;
+	--small-line-height-h3: 25px;
+
+	--size-h4: 24px;
+	--line-height-h4: 36px;
+
+	--size-p: 15px;
+	--font-family-p: "Public sans", sans-serif;
+	--line-height-p: 28px;
+	--line-height-h: 17.63px;
+}
+
+h1 {
+	font-family: var(--font-family-secondary);
+	color: var(--secondary-san-juan-blue);
+	font-size: var(--large-size-h3);
+	font-weight: var(--h-weight);
+	line-height: var(--line-height-h4);
+}
+
+p {
+	color: var(--secondary-light-san-juan-blue);
+	font-family: "Public Sans", sans-serif;
+	margin-top: 1.5rem;
+	text-align: center;
+	padding: 14px;
+}
+
+.input-mail {
+	text-align: left;
+	color: var(--secondary-san-juan-blue);
+	font-family: var(--font-family-main);
+	font-weight: var(--h1-weight);
+	font-size: var(--size-p);
+	line-height: var(--line-height-h);
+}
+
+.primary-normal-state-light {
+	text-align: center;
+	color: var(--primary-link-water-white);
+	font-family: var(--font-family-main);
+	font-weight: var(--h1-weight);
+	font-size: var(--size-p);
+	line-height: var(--line-height-h);
+}
+.question-start {
+	font-family: var(--font-family-main);
+	font-weight: var(--h-weight);
+	font-size: var(--size-p);
+	line-height: var(--line-height-h);
+	color: var(--secondary-light-san-juan-blue);
+}
+
+.lien-contact {
+	font-family: var(--font-family-main);
+	font-weight: var(--h1-weight);
+	font-size: var(--size-p);
+	line-height: var(--line-height-h);
+	color: var(--secondary-light-san-juan-blue);
+	text-decoration: none;
+}
+
+a {
+	color: var(--secondary-san-juan-blue);
+
+	font-weight: var(--small-weight-h3);
+}
+
+.schedule-demo-a {
+	font-weight: var(--h-weight);
+	font-size: var(--size-p);
+	line-height: var(--line-height-h);
+	font-family: var(--font-family-main);
+	color: var(--primary-link-water-white);
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	h1 {
+		font: large;
+		font-family: var(--font-family-secondary);
+		color: var(--secondary-san-juan-blue);
+		font-size: var(--size-h2);
+		font-weight: var(--h-weight);
+		line-height: var(--h-line-height);
+		text-align: center;
+	}
+
+	.primary-normal-state-light {
+		text-align: center;
+		color: var(--primary-link-water-white);
+		font-family: var(--font-family-main);
+		font-weight: var(--h1-weight);
+		font-size: var(--size-p);
+		line-height: var(--line-height-h);
+	}
+}
+
+
+@media screen and (min-width: 1024px) {
+	.grid-home-child-1 h1 {
+		font-size: 72px;
+		line-height: 72px;
+	}
+}

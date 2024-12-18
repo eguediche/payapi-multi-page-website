@@ -1,0 +1,6 @@
+:root {
+	--checkbox-normal: #cdd4da;
+	--checkbox-activate: #ba4270;
+	--checkbox-waiting: #ffffff;
+	--checkbox-error: #f5f6f8;
+}
